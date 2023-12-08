@@ -1,6 +1,6 @@
 # Multimodal-Psychological-Markers
 
-Basic Implementation Start :
+Basic Implementation Start : Take a video, use any compression tool.
 
 ## Step 1 : Collect Models 
 1) opensmile (audio)
