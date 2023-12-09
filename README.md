@@ -25,4 +25,4 @@ Probability Vector to Dempster-Shafer Algorithm.
 
 ## Step 5 : 
 
-Take an element wise multiplication
+Take an element wise multiplication, then stacking for the final step
