@@ -1,18 +1,18 @@
 import numpy as np
-import pandas as pd
+#import pandas as pd
 from sklearn.linear_model import LogisticRegression
-import xgboost as xgb
-from xgboost import XGBClassifier
+#import xgboost as xgb
+#from xgboost import XGBClassifier
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.ensemble import VotingClassifier
 from sklearn.linear_model import SGDClassifier
-import xgboost as xgb
+#import xgboost as xgb
 from sklearn.neighbors import KNeighborsClassifier
 import pickle
 
 
 def getTextProbs(text):
-    model_filename = 'textClassifer.pkl'
+    model_filename = 'textClassifier.pkl'
     vectorizer = 'vectorizer.pkl'
 
     with open(model_filename, 'rb') as model_file:
